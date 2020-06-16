@@ -12,6 +12,9 @@ export const errorHandlerMiddleware = (
         return;
     }
 
+    // if not one of the pre-defined errors, i.e. if some unpredicted error occurs, log the error
+    console.log(err);
+
     res.status(400).send({
         errors: [{ message: "Something went wrong" }],
     });
