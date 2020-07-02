@@ -1,4 +1,2 @@
 # ticketing-common-lib
-Commonly used classes &amp; middlewares for ticketing microservices, published as a NPM module. 
-
-https://www.npmjs.com/package/@wwticketing/common
+Commonly used classes/interfaces, event types and middlewares for ticketing microservices.
